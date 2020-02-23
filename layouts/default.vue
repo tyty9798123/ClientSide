@@ -1,16 +1,18 @@
 <template>
   <div>
+    <my-navbar />
     <nuxt/>
-    <my-footer/>
+    <my-footer />
   </div>
 </template>
 
 <script>
 import MyFooter from '~/components/Footer.vue'
-
+import MyNavbar from '~/components/Navbar.vue'
 export default {
   components: {
-    MyFooter
+    MyFooter,
+    MyNavbar
   }
 }
 </script>
