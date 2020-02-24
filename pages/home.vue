@@ -4,7 +4,7 @@
             <p2 id="title">MeYin程式學習筆記</p2>
         </div>
         <div class="description_field">
-            <p>Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库</p>
+            <p>MeYinWeb，程式學習、問題筆記 & 日常生活紀錄，僅供個人使用。</p>
         </div>
     </div>
 </template>
