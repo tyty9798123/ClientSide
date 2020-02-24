@@ -25,9 +25,14 @@ router.get('/users/:id', function (req, res, next) {
 })
 
 router.post('/users/login', function(req, res, next){
-  if (req.body.userAccount === 'admin' && req.body.userPassword === 'admin4321'){
+  if (req.body.account === 'admin' && req.body.password === 'admin4321'){
+    req.session.uid = "1";
     res.send({
       success: true,
+    })
+  }else{
+    res.send({
+      success: false,
     })
   }
 })

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="title-field">
-            <p2 id="title">MeYin程式學習筆記</p2>
+            <p id="title">MeYin程式學習筆記</p>
         </div>
         <div class="description_field">
             <p>MeYinWeb，程式學習、問題筆記 & 日常生活紀錄，僅供個人使用。</p>
