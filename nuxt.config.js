@@ -21,7 +21,8 @@ module.exports = {
     'element-ui/lib/theme-chalk/index.css'
   ],
   plugins: [
-    '@/plugins/element-ui'
+    '@/plugins/element-ui',
+    '~/plugins/bus.js'
   ],
   /*
   ** Add axios globally
