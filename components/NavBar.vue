@@ -20,7 +20,7 @@
                 <el-menu-item index="2-4-3">選項3</el-menu-item>
                 </el-submenu>
             </el-submenu>
-            <el-menu-item index="3">會員中心</el-menu-item>
+            <el-menu-item index="3">登入</el-menu-item>
         </el-menu>
     </div>
 </template>

@@ -24,4 +24,12 @@ router.get('/users/:id', function (req, res, next) {
   }
 })
 
+router.post('/users/login', function(req, res, next){
+  if (req.body.userAccount === 'admin' && req.body.userPassword === 'admin4321'){
+    res.send({
+      success: true,
+    })
+  }
+})
+
 module.exports = router
