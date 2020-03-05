@@ -30,7 +30,7 @@ app.use(session({
 const users = require('./routes/users')
 
 // Import API Routes
-app.use(users)
+app.use('/users', users)
 
 // Export the server middleware
 module.exports = {
