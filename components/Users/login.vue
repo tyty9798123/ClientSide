@@ -72,8 +72,8 @@ export default {
             message: '登入成功！',
             type: 'success'
           });
-          vm.loginAccount = "";
-          vm.loginPassword = "";
+          $('#loginAccount').val('');
+          $('#loginPassword').val('');
           $('#loginDialog').modal('hide')
         }
         else {
